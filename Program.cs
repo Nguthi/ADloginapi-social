@@ -19,16 +19,20 @@ builder.Configuration.GetConnectionString("DefaultConnection")
 
 builder.Services.AddAuthentication(options =>
 {
-    options.DefaultScheme = "Google";
-    options.DefaultSignInScheme = "Google";
+    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme; // Set the default to your cookie authentication scheme
     options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = "Google"; // Specify your desired external authentication scheme here
 
 })
     //.AddCookie(options =>
     //{
     //    options.LoginPath = "/auth/login";
     //})
+    .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
+    {
+        // Configure your cookie authentication options here
+        options.LoginPath = "/auth/login";
+    })
    .AddGoogle(options =>
    {
        options.ClientId = "350765916364-viv3al52jr829vi0dp8okig9m53k5daj.apps.googleusercontent.com";
