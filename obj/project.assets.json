@@ -2547,19 +2547,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\ian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\ADloginAPI - social\\ADloginAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ian\\Documents\\csharp_projects\\ADloginapi-social\\ADloginAPI.csproj",
       "projectName": "ADloginAPI",
-      "projectPath": "C:\\Users\\user\\source\\repos\\ADloginAPI - social\\ADloginAPI.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\ADloginAPI - social\\obj\\",
+      "projectPath": "C:\\Users\\ian\\Documents\\csharp_projects\\ADloginapi-social\\ADloginAPI.csproj",
+      "packagesPath": "C:\\Users\\ian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ian\\Documents\\csharp_projects\\ADloginapi-social\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2567,7 +2567,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2632,7 +2631,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
